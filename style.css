@@ -94,7 +94,7 @@ header {
 
 @keyframes floatImage {
     0% {
-        transform: translateX(0);
+        transform: translateY(0);
     }
     50% {
         transform: translateY(-2.4rem);
@@ -292,6 +292,7 @@ span {
     text-align: center;
     border: 0.3rem solid #0d0d0d;
     transition: 0.3s ease;
+    text-shadow: 0 0 3px #070707;
 }
 
 .projects-container .wrapper:hover {
